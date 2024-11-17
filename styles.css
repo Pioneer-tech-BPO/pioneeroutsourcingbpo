@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #FFDD00; /* Yellow */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: #FFDD00;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.welcome h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.services h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.service {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer .social-icon {
+    width: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+footer .social-icon:hover {
+    transform: scale(1.2);
+}
